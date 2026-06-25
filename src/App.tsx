@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound.tsx";
 import CategoryPage from "./pages/CategoryPage.tsx";
 import ProductPage from "./pages/ProductPage.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
+import CustomOrdersPage from "./pages/CustomOrdersPage.tsx";
 import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
