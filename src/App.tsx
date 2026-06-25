@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound.tsx";
 import CategoryPage from "./pages/CategoryPage.tsx";
 import ProductPage from "./pages/ProductPage.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
+import CustomOrdersPage from "./pages/CustomOrdersPage.tsx";
 import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/category/:slug" element={<CategoryPage />} />
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/custom-orders" element={<CustomOrdersPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

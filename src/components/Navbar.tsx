@@ -49,6 +49,7 @@ export const Navbar = () => {
           <a href="/#how" className="text-muted-foreground hover:text-ink">How it Works</a>
           <a href="/#factory" className="text-muted-foreground hover:text-ink">Factory</a>
           <a href="/#gallery" className="text-muted-foreground hover:text-ink">Our Work</a>
+          <NavLink to="/custom-orders" className={({isActive}) => isActive ? "text-ink" : "text-muted-foreground hover:text-ink"}>Custom Orders</NavLink>
           <NavLink to="/contact" className={({isActive}) => isActive ? "text-ink" : "text-muted-foreground hover:text-ink"}>Contact</NavLink>
         </nav>
 
@@ -80,6 +81,7 @@ export const Navbar = () => {
             <a href="/#how" className="px-3 py-2 rounded-lg hover:bg-secondary">How it Works</a>
             <a href="/#factory" className="px-3 py-2 rounded-lg hover:bg-secondary">Factory</a>
             <a href="/#gallery" className="px-3 py-2 rounded-lg hover:bg-secondary">Our Work</a>
+            <Link to="/custom-orders" className="px-3 py-2 rounded-lg hover:bg-secondary">Custom Orders</Link>
             <Link to="/contact" className="px-3 py-2 rounded-lg hover:bg-secondary">Contact</Link>
             <a href={wa} target="_blank" rel="noopener noreferrer"
                className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-whatsapp px-5 py-3 text-sm font-medium text-white">
