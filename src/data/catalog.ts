@@ -24,16 +24,18 @@ export type Category = {
 };
 
 export const categories: Category[] = [
-  { slug: "t-shirts", name: "T-Shirts", image: tshirt, tagline: "Cotton · Bio-wash · Polyester" },
-  { slug: "hoodies", name: "Hoodies", image: hoodie, tagline: "Fleece · French Terry" },
-  { slug: "polos", name: "Polo Shirts", image: polo, tagline: "Pique · Honeycomb · Lacoste" },
+  { slug: "t-shirts", name: "T-Shirts", image: tshirt, tagline: "Oversized · Roundneck · Corporate · Event" },
+  { slug: "polos", name: "Polo Shirts", image: polo, tagline: "Cotton · Drifit · Event · Conference" },
+  { slug: "jerseys", name: "Jerseys", image: sweatshirt, tagline: "All-Over Print · Front · Jersifit" },
+  { slug: "hoodies", name: "Hoodies", image: hoodie, tagline: "Blended · American Fleece · Cotton" },
+  { slug: "sweatshirts", name: "Sweatshirts", image: sweatshirt, tagline: "Crewneck · Loop knit" },
   { slug: "jackets", name: "Jackets", image: jacket, tagline: "Bomber · Windcheater" },
   { slug: "pants", name: "Pants & Trousers", image: pants, tagline: "Cargo · Chinos · Joggers" },
-  { slug: "sweatshirts", name: "Sweatshirts", image: sweatshirt, tagline: "Crewneck · Loop knit" },
-  { slug: "caps", name: "Caps & Headwear", image: cap, tagline: "Baseball · Snapback · Bucket" },
-  { slug: "bags", name: "Bags & Totes", image: tote, tagline: "Canvas · Jute · Cotton" },
-  { slug: "aprons", name: "Aprons", image: apron, tagline: "Cafe · Industrial · Salon" },
   { slug: "shorts", name: "Shorts", image: shorts, tagline: "Cotton · Dri-fit · Athletic" },
+  { slug: "safety", name: "Safety & Workwear", image: uniform, tagline: "Safety Jacket · Goggles" },
+  { slug: "bags", name: "Bags", image: tote, tagline: "Conference Backpack · Canvas Tote" },
+  { slug: "aprons", name: "Aprons", image: apron, tagline: "University · Nurse · Medical" },
+  { slug: "caps", name: "Caps & Headwear", image: cap, tagline: "Baseball · Snapback · Bucket" },
   { slug: "corporate", name: "Corporate Wear", image: corporate, tagline: "Polo · Shirt · Embroidery" },
   { slug: "uniforms", name: "School & Institutional", image: uniform, tagline: "School · Hospital · Hotel" },
 ];
