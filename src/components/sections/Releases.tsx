@@ -30,17 +30,6 @@ export const Releases = () => (
       </div>
     </section>
 
-    <section className="container-x py-20 md:py-28">
-      <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10">
-        <div>
-          <span className="chip"><span className="h-1.5 w-1.5 rounded-full bg-neon" /> Latest Collection</span>
-          <h2 className="mt-4 font-display text-4xl md:text-6xl font-bold tracking-tighter">Newly featured.</h2>
-        </div>
-        <p className="text-muted-foreground max-w-sm">Hand-picked best sellers across all our production lines.</p>
-      </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-        {products.slice(0, 8).map(p => <ProductCard key={p.id} product={p} />)}
-      </div>
-    </section>
+    <CustomOrdersCTA />
   </>
 );
