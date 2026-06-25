@@ -1,5 +1,6 @@
 import { ProductCard } from "@/components/ProductCard";
-import { newProducts, products } from "@/data/catalog";
+import { newProducts } from "@/data/catalog";
+import { CustomOrdersCTA } from "@/components/sections/CustomOrdersCTA";
 
 export const Releases = () => (
   <>
