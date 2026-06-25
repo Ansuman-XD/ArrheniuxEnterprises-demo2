@@ -49,6 +49,7 @@ export const Navbar = () => {
           <a href="/#how" className="text-muted-foreground hover:text-ink">How it Works</a>
           <a href="/#factory" className="text-muted-foreground hover:text-ink">Factory</a>
           <a href="/#gallery" className="text-muted-foreground hover:text-ink">Our Work</a>
+          <NavLink to="/custom-orders" className={({isActive}) => isActive ? "text-ink" : "text-muted-foreground hover:text-ink"}>Custom Orders</NavLink>
           <NavLink to="/contact" className={({isActive}) => isActive ? "text-ink" : "text-muted-foreground hover:text-ink"}>Contact</NavLink>
         </nav>
 
